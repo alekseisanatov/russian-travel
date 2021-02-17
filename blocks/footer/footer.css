@@ -1,7 +1,28 @@
 .footer {
+  margin: 0 auto;
   margin-top: 92px;
   margin-bottom: 24px;
   display: flex;
   justify-content: space-between;
   color: #fff;
+}
+
+@media screen and (max-width: 1279px) {
+  .footer {
+    width: calc(100% - 48px*2);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .footer {
+    width: calc(100% - 24px*2);
+    margin-top: 88px auto 0 auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    display: block;
+    padding-left: 16px;
+  }
 }

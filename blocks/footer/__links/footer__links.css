@@ -5,3 +5,10 @@
   justify-content: space-between;
   column-gap: 18px;
 }
+
+@media screen and (max-width: 767px) {
+  .footer__links {
+    display: block;
+    margin-top: 64px;
+  }
+}

@@ -4,3 +4,27 @@
   margin-top: 92px;
   color: #fff;
 }
+
+@media screen and (max-width: 1279px) {
+  .intro {
+    padding: 0;
+    width: calc(100% - 48px*2);
+    margin: 92px auto 0 auto;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .intro {
+    width: calc(100% - 24px*2);
+    margin: 0 auto;
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    max-width: 288px;
+    padding: 0 16px;
+    margin-top: 64px;
+  }
+}

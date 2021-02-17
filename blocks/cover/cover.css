@@ -1,12 +1,7 @@
-
-.cover {
-  position: relative;
-  margin-top: 12px;
-  padding-top: 245px;
-  background-image: url('../../images/cover-trains.jpg');
-  background-size: cover;
-  min-height: 495px;
-  color: #fff;
-  z-index: 1;
+@media screen and (max-width: 1279px) {
+  .cover {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
 }
-
