@@ -1,4 +1,5 @@
 .footer__links {
+  margin: 0;
   padding: 0;
   list-style-type: none;
   display: flex;
@@ -10,5 +11,8 @@
   .footer__links {
     display: block;
     margin-top: 64px;
+  }
+  .footer__link:nth-of-type(4) {
+    margin-bottom: 0;
   }
 }
