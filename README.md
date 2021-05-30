@@ -1,10 +1,8 @@
-# Путешествие по России
+# Russian travel
 
-**Описание проекта**
+## The main problem that solve this project is you can see places where you can go in Russia.
+### Stack that is used in this project - Html, Css, responsive CSS
 
-### Проект о путешествии по России. Решает проблему поиска места для путешествий и общего развития. Данный проект отличаются от прошлых, то что он является адаптивным.
-### Использованые технологии - флексы, гриды и медиа запросы.
-
-[Посмотреть проект](https://alekseisanatov.github.io/russian-travel/)
+[Project link](https://alekseisanatov.github.io/russian-travel/)
 
 
